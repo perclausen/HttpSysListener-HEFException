@@ -1,16 +1,16 @@
 HttpSysListener HEFException
 -----------------
 
-This examples shows that HttpSysListener throws HEFException when WebApplication is disposed and targeting `net10.0`.
+This examples shows that `HttpSysListener` throws `HEFException` when `WebApplication` is disposed and targeting `net10.0`.
 
 The error is only thrown when run from Visual Studio where Debugger is attached (Debug and Release).
 
 The error is not thrown when targeting `net8.0`, so an issue introduced in `net10.0`.
 
 To reproduce the issue, follow these steps:
-- Open the solution in Visual Studio 2026 or later.
+- Open the solution in Visual Studio 2026.
 - Set the target framework to `net10.0`.
-- Run `WebApplication1` with Debugger attached, profile `StartApp` or `DontStartApp`.
+- Run `WebApplication1` from within Visual Studio (Debugger attached), profile `StartApp` or `DontStartApp`.
 
 The error message will be similar to:
 ```
