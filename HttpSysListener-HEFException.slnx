@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Soultion Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="global.json" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="src/WebApplication1/WebApplication1.csproj" />
+</Solution>
