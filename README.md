@@ -5,7 +5,7 @@ This examples shows that `HttpSysListener` throws `HEFException` when `WebApplic
 
 The error is only thrown when run from Visual Studio where Debugger is attached (Debug and Release).
 
-The error is not thrown when targeting `net8.0`, so an issue introduced in `net10.0`.
+The error is not thrown when targeting `net8.0` or `net9.0`, so an issue introduced in `net10.0`.
 
 To reproduce the issue, follow these steps:
 - Open the solution in Visual Studio 2026.
